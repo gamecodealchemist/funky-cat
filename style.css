@@ -1,0 +1,108 @@
+.logo{
+
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: #76abae;
+  text-align: center;
+}
+footer {
+    clear: both;
+    text-align: left;
+    color: #76abae;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+body{
+    background-color: #31363F;
+    color: aliceblue;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "YTLC" 500;
+    background-image: url(./assets/black-metallic-4608-x-3456-rtkfbu2148xwuhv5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.IMG{
+    color: rgb(192, 192, 192);
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.haha{
+    height: 260px;
+    margin-right: 10px;
+    float: left;
+    border-radius: 1.5rem;
+}
+.card{
+    width: 60%;
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+    text-align: justify;
+}
+.intro{
+    flex: 1
+}
+
+@media (max-width: 680px) {
+    .logo {
+      width: 100px;
+    }
+  
+    h1 {
+      font-size: 3.5rem;
+      text-align: center;
+    }
+  
+    .card {
+      width: 100%;
+      display: block;
+      margin-bottom: 30px;
+      text-align: justify;
+    }
+  
+    .card img {
+      margin-bottom: 10px;
+      width: 100%;
+      display: inline;
+      object-fit: cover;
+    }
+  }
+  h2{
+    color: #76abae;
+  }
+  h1{
+    font-size: 4rem;
+  }
+p{
+    font-size: 1.2rem;
+}
+.hi:hover {
+    border-radius: 5px;
+    transform: scale(1.2);
+  }
+h2:hover{
+    transform: scale(1.2);
+}
+@media (hover: none) {
+  .card:hover, .img:hover, span:hover, p:hover, h2:hover, li:hover, h1:hover {
+      background-color: inherit;
+      color: inherit;
+      transform: none;
+  }
+}

@@ -1,0 +1,166 @@
+body{
+    background-color: #31363F;
+    color: aliceblue;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "YTLC" 500;
+    background-image: url(./assets/black-metallic-4608-x-3456-rtkfbu2148xwuhv5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+span{
+    color: midnightblue;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+
+}
+.img {
+    height: 250px;
+    border-radius: 50rem;
+    float: left;
+    margin-right: 50px;
+}
+@media (max-width: 1024px) {
+    .card.a, .card.b {
+        width: 48%;
+    }
+}
+
+@media (max-width: 768px) {
+    .card.a, .card.b {
+        width: 100%;
+        float: none;
+        margin: 0 auto 20px auto;
+    }
+}
+p{
+    color: rgb(192, 192, 192);
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+}
+h2{
+    font-size: 2rem;
+    color: #76abae;
+}
+.haha{
+    width: 80%;
+    margin: 0 auto;
+}
+.a{
+    float: left;
+    width: 48%;
+}
+.b{
+    float: right;
+    width: 48%;
+}
+li{
+    list-style-type: none;
+    color: rgb(192, 192, 192);
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+}
+h1{
+    font-size: 4rem;
+}
+.haha.clearfix{
+    overflow: auto;
+}
+.img:hover{
+    transform: scale(1.2);
+}
+p:hover{
+    transform: scale(1.2);
+}
+h2:hover{
+    transform: scale(1.2);
+}
+li:hover{
+    transform: scale(1.2);
+}
+.clear{
+    clear: both;
+}
+@media (hover: none) {
+    .card:hover, .img:hover, span:hover, p:hover, h2:hover, li:hover, h1:hover {
+        background-color: inherit;
+        color: inherit;
+        transform: none;
+    }
+}
+@media (max-width: 1024px) {
+    .card.a, .card.b {
+        width: 48%;
+    }
+    
+    h1 {
+        font-size: 3.5rem;
+    }
+    
+    h2 {
+        font-size: 1.8rem;
+    }
+    
+    p, li {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .card.a, .card.b {
+        width: 100%;
+        float: none;
+        margin: 0 auto 20px auto;
+    }
+    
+    .img {
+        display: block;
+        margin: 0 auto 10px auto;
+        width: 100%;
+        height: auto;
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    p, li {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 480px) {
+    .haha {
+        width: 90%;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.2rem;
+    }
+    
+    p, li {
+        font-size: 0.9rem;
+    }
+}
